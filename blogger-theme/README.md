@@ -2,7 +2,18 @@
 
 A modern Blogger (Blogspot) theme for an English blog about everyday life in the United States.
 
-- **Upload file:** `dist/oneofkind77-theme-v12.xml` (same as `dist/oneofkind77-blogger-theme.xml`; the version number makes the newest download easy to spot)
+- **Upload file:** `dist/oneofkind77-theme-v13.xml` (same as `dist/oneofkind77-blogger-theme.xml`; the version number makes the newest download easy to spot)
+
+## 2026-09-27 live snapshot (v13)
+
+v13 is a snapshot of the theme **as it runs live** on oneofkind77.com, downloaded from
+Blogger → Theme → Backup. After v12, the theme was edited directly in Blogger's theme
+editor (custom star favicon, Bricolage Grotesque font, north-star logo, Upcoming Holidays
+card, mobile menu CSS, header/nav tweaks, homepage h1 fix). The `src/` + `build.py`
+pipeline predates those edits — **rebuilding from `src/` would lose them**, so treat
+`src/` as archived. For future theme changes, edit the live theme in Blogger and
+re-snapshot with a new versioned file here.
+
 - **Preview (sample content):** `blogger-theme/preview/index.html`, `preview/post.html`
 
 ## Install
